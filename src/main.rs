@@ -15,7 +15,7 @@ fn main() {
     
     let project_directories = ProjectDirs::from("", "Bridgette apps", "Rykeeper").unwrap();
     check_directories(&project_directories);
-
+    let configs = get_configs(&project_directories);
 }
 
 fn get_configs(project_directories: &ProjectDirs) -> Configs {
