@@ -1,0 +1,14 @@
+[directories]
+
+# Input the absolute directories to clean in quotes below, separated by a comma and new line.
+# Example: directories = [
+#   "/home/pain/meow",
+#   "/home/pain/videos"
+#]
+# Default: directories = [
+#   ""
+#]
+
+directories_to_clean = [
+    ""
+]
